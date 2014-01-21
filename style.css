@@ -5,7 +5,7 @@ body {
 	font-size: 12pt;
 }
 .container {
-	max-width: 40%;
+	max-width: 480px;
 	margin: 0 auto;
 }
 nav {
@@ -30,13 +30,10 @@ h5 {
 	color: #AAA;
 	margin-top: 50px;
 }
-.keys {
-	overflow: auto;
-}
 .red {
 	position: absolute;
 	top: -2px;
-	left: 68px;
+	left: 20px;
 	background-color: #600000;
 	border-bottom: solid 7px #400000;
 	width: 440px;
