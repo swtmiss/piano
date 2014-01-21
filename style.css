@@ -1,0 +1,208 @@
+body {
+	margin: 0 auto;
+	background-color: #222;
+	font-family: Georgia, Times, serif;
+	font-size: 12pt;
+}
+.container {
+	max-width: 36%;
+	margin: 0 auto;
+}
+nav {
+	top: 0px;
+	margin-bottom: 30px;
+	border-bottom: solid 1px #333;
+	z-index: 1;
+}
+#toplogo, h5 {
+	text-shadow: 0 0 3px #AAA;
+	text-align: center;
+}
+#toplogo {
+	font-size: 1.4em;
+	padding: 15px 0;
+	color: #CCC;
+}
+h5 {
+	font-weight: normal;
+	color: #AAA;
+	margin-top: 50px;
+}
+.keys {
+	overflow: auto;
+}
+.red {
+	position: relative;
+	top: -2px;
+	left: 37px;
+	background-color: #600000;
+	border-bottom: solid 7px #400000;
+	width: 440px;
+	height: 8px;
+}
+.pianokeyboard, .keyboard {
+	text-align: center;
+}
+.pianokeyboard {
+	display: block;
+	position: relative;
+	margin-bottom: 30px;
+	background-color: #222;
+	height: 248px;
+}
+.whitekey, .blackkey {
+	border-bottom-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-bottom-right-radius: 5px;
+	-o-border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	-o-border-bottom-left-radius: 5px;
+}
+.whitekey, .blackkey, .typekey {
+	display: inline-block;
+}
+.whitekey, .typekey {
+	margin: 0 -2px;
+	border: solid 1px;
+}
+.whitekey {
+	position: relative;
+	top: -5px;
+	height: 250px;
+	width: 38px;
+	font-size: 2em;
+	border-color: #DDD;
+	-moz-box-shadow: 0 7px 0 #AAA;
+	-webkit-box-shadow: 0 7px 0 #AAA;
+	box-shadow: 0 7px 0 #AAA;
+}
+.whitekey, .typekeywhite {
+	background-color: #FFF;
+	color: #999;
+}
+.typekeywhite {
+	border-color: #EEE;
+	-moz-box-shadow: 0 3px 0 #AAA;
+	-webkit-box-shadow: 0 3px 0 #AAA;
+	box-shadow: 0 3px 0 #AAA;
+}
+.blackkey {
+	position: absolute;
+	top: 2px;
+	margin: 0 -20px;
+	width: 28px;
+	height: 130px;
+	color: #CCC;
+	font-size: 1.2em;
+	letter-spacing: -2px;
+	background-color: #222;
+	border: solid 2px #444;
+	border-top: solid 2px #111;
+	z-index: 1;
+	-moz-box-shadow: 0 10px 0 #444;
+	-webkit-box-shadow: 0 10px 0 #444;
+	box-shadow: 0 10px 0 #444;
+}
+.typekeyblack {
+	color: #DDD;
+	background-color: #333;
+	border: solid 1px #222;
+	-moz-box-shadow: 0 3px 0 #222;
+	-webkit-box-shadow: 0 3px 0 #222;
+	box-shadow: 0 3px 0 #222;
+}
+.flat {
+	font-size: 0.6em;
+	letter-spacing: -2px;
+}
+.whitekey:hover {
+	top: -3px;
+	background-color: #DDD;
+	height: 250px;
+	color: #555;
+	border-color: #BBB;
+	-moz-box-shadow: 0 5px 0 #777;
+	-webkit-box-shadow: 0 5px 0 #777;
+	box-shadow: 0 5px 0 #777;
+}
+.typekeywhite:hover {
+	position: relative;
+	top: 1px;
+	background-color: #DDD;
+	color: #555;
+	border-color: #BBB;
+	-moz-box-shadow: 0 2px 0 #777;
+	-webkit-box-shadow: 0 2px 0 #777;
+	box-shadow: 0 2px 0 #777;
+}
+.blackkey:hover {
+	top: 4px;
+	background-color: #444;
+	color: #BBB;
+	border-color: #555;
+	border-top-color: #333;
+	-moz-box-shadow: 0 8px 0 #777;
+	-webkit-box-shadow: 0 8px 0 #777;
+	box-shadow: 0 8px 0 #777;
+}
+.typekeyblack:hover {
+	position: relative;
+	top: 1px;
+	background-color: #444;
+	border-color: #555;
+	-moz-box-shadow: 0 2px 0 #777;
+	-webkit-box-shadow: 0 2px 0 #777;
+	box-shadow: 0 2px 0 #777;
+}
+.whitekey .keyname {
+	position: absolute;
+	bottom: 0;
+	left: 8px;
+}
+.keyboard {
+	height: 220px;
+}
+.row2, .row3 {
+	position: relative;
+	margin-top: 3px
+}
+.row3 {
+	left: -18px;
+}
+.typekey {
+	width: 18px;
+	height: 18px;
+	padding: 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.typekeyoff {
+	background-color: #AAA;
+	color: #777;
+	border-color: #999;
+	-moz-box-shadow: 0 3px 0 #555;
+	-webkit-box-shadow: 0 3px 0 #555;
+	box-shadow: 0 3px 0 #555;
+}
+nav, footer {
+	width: 100%;
+	background-color: #111;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	margin-top: 30px;
+	border-top: solid 1px #333;
+	display: block;
+	height: 50px;
+}
+.copyrights {
+	margin-top: 30px;
+	text-align: center;
+	color: #777;
+	font-size: 0.7em;
+}
