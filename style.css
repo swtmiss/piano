@@ -5,7 +5,7 @@ body {
 	font-size: 12pt;
 }
 .container {
-	max-width: 36%;
+	max-width: 40%;
 	margin: 0 auto;
 }
 nav {
@@ -16,6 +16,8 @@ nav {
 }
 #toplogo, h5 {
 	text-shadow: 0 0 3px #AAA;
+}
+#toplogo, h5, .pianokeyboard, .keyboard {
 	text-align: center;
 }
 #toplogo {
@@ -32,16 +34,13 @@ h5 {
 	overflow: auto;
 }
 .red {
-	position: relative;
+	position: absolute;
 	top: -2px;
-	left: 37px;
+	left: 68px;
 	background-color: #600000;
 	border-bottom: solid 7px #400000;
 	width: 440px;
 	height: 8px;
-}
-.pianokeyboard, .keyboard {
-	text-align: center;
 }
 .pianokeyboard {
 	display: block;
@@ -69,7 +68,7 @@ h5 {
 }
 .whitekey {
 	position: relative;
-	top: -5px;
+	top: 8px;
 	height: 250px;
 	width: 38px;
 	font-size: 2em;
@@ -118,7 +117,7 @@ h5 {
 	letter-spacing: -2px;
 }
 .whitekey:hover {
-	top: -3px;
+	top: 10px;
 	background-color: #DDD;
 	height: 250px;
 	color: #555;
